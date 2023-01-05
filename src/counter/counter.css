@@ -1,0 +1,32 @@
+.main{
+    margin-top: 100px;
+    text-align: center;
+    height: 80px;
+}
+button{
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+#b1{
+    font-size: large;
+    color: red;
+    background-color: yellowgreen;
+}
+#b2{
+    font-size: large;
+    margin-left: 13px;
+    background-color: red;
+}
+#b3{
+    margin-top: 8px;
+    font-size: medium;
+    background-color: aqua;
+}
+#para{
+    font-size:xx-large;
+    color: blue;
+}
+body{
+    background-color: aquamarine;
+}
