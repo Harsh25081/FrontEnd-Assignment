@@ -1,17 +1,25 @@
-import {useNavigate} from "react-router-dom"
+import logo from './logo.svg';
+import './App.css';
 
-const App = ()=>{
-    let navigate = useNavigate();
-    
-    return (
-        <div>
-        <div className="btn-group" style={{float:"right"}}>
-            <button className="btn btn-info" id="signup" onClick={()=>{navigate("/register")}}>Sign Up</button>
-            <button className="btn btn-warning" id="login" onClick={()=>{navigate("/login")}}>Login</button>
-        </div>
-        <p>This is the Digital Library</p>
-        </div>
-    )
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
-export default App
+export default App;
